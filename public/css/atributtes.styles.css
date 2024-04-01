@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-theme: #ffffff;
+  --dark-theme: #000000;
+  --color-primary: #03296A;
+  --color-primary-light: #03296a50;
+  --color-primary-light-2: #eee;
+  --deep-sky-blue: #00a0df;
+  --color-blue: #023185;
+  --color-white: #ffffff;
+  --color-gold: #c3964e;
+  --color-orange: #e25a28;
+  --color-gray: gray;
+  --gray: #B6B6B6;
+  --gray-light: #B6B6B699;
+}
+
+.atributtes {
+  justify-content: center;
+  margin: 3rem 0rem;
+}
+.header{
+  margin: 3rem 12rem;
+}
+.container-atributtes {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 12rem;
+}
+.item-atributte {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+.container-icon-atributte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-atributte {
+  height: 50px;
+  width: 50px;
+  color: var(--gray-light);
+}
+.atributtes .header .introduction {
+  color: #bbc5c7;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+.atributtes .header .title {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.atributtes .header .paragraph {
+  text-align: center;
+  white-space: normal;
+  padding-top: 1px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.atributte-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.atributte-paragraph {
+  color: var(--klar-black);
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.absolute.left-0.top-0.flex.h-10.w-10.items-center.justify-center.rounded-lg {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+dt.text-base.font-semibold.leading-7.text-gray-900 {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 10px;
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: white;
+  font-size: -webkit-xxx-large;
+}
+@media (max-width: 952px) {
+  .container-atributtes {
+    gap: 1em;
+    margin: 1rem;
+  }
+  .header{
+    margin: 1rem 0rem;
+  }
+}

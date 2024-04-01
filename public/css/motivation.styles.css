@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-theme: #ffffff;
+  --dark-theme: #000000;
+  --color-primary: #03296A;
+  --color-primary-light: #03296a50;
+  --color-primary-light-2: #eee;
+  --deep-sky-blue: #00a0df;
+  --color-blue: #023185;
+  --color-white: #ffffff;
+  --color-gold: #c3964e;
+  --color-orange: #e25a28;
+  --color-gray: gray;
+  --gray: #B6B6B6;
+  --gray-light: #B6B6B699;
+}
+
+.motivation {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 0rem 0 0 0;
+}
+
+.motivation .header {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.motivation .header .intro {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.motivation .header .title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.motivation .header .paragraph {
+  text-align: center;
+  padding-top: 1px;
+  font-size: 16px;
+  font-weight: 300;
+}
+img.motivation-img {
+  width: auto;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 3rem;
+}
+
+@media (max-width: 952px) {
+  .motivation {
+    padding: 3rem 1.5rem;
+  }
+  img.motivation-img {
+    width: auto;
+    height: 300px;
+  }
+}

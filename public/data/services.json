@@ -1,0 +1,29 @@
+{
+    "services": [ 
+        {
+            "titulo": "Ciberseguridad",
+            "descrip": "La seguridad de la información se ha convertido en una agenda prioritaria, tanto para los gobiernos, como para las empresas",
+            "icono": "security"
+        },{
+            "titulo": "Aplicaciones propias",
+            "descrip": "Trabajamos en conjunto contigo para diseñar y crear productos digitales. Entregas en tiempo y en presupuesto que superan las expectativas.",
+            "icono": "devices"
+        },{
+            "titulo": "Diseño de sistemas",
+            "descrip": "Empresa dedicada a la distribución de servicios informáticos, permitiendo forjar la productividad para las empresas a través de soluciones empresariales",
+            "icono": "draw"
+        },{
+            "titulo": "ITS (Intelligent Transport Systems - Sistemas Inteligentes de Transporte)",
+            "descrip": "Suministro-Implementación- Soporte y Mantenimiento.",
+            "icono": "apartment"
+        },{
+            "titulo": "Propiedad intelectual, desarrollo de políticas",
+            "descrip": "Confirmamos la disponibilidad de tu marca y las posibilidades de registro creando soluciones factibles para ti.",
+            "icono": "gavel"
+        },{
+            "titulo": "Centro de ciberseguridad",
+            "descrip": "Programas de concientización en ciberseguridad para empresas. Preparamos al personal para detectar diferentes tipos de ataques",
+            "icono": "assured_workload"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "works" : [
+        {
+            "titulo": "Transporte",
+            "src": "/carro.webp",
+            "alt": "CTI en sector de transporte"
+        },
+        {
+            "titulo": "Educación",
+            "src": "/escuela.jpeg",
+            "alt": "CTI en sector de Educación"
+        },
+        {
+            "titulo": "Autopistas",
+            "src": "/calle.jpg",
+            "alt": "CTI en sector de Autopistas"
+        },
+        {
+            "titulo": "Inmobiliario",
+            "src": "/casa.jpg",
+            "alt": "CTI en sector de Inmobiliario"
+        }
+    ]
+}

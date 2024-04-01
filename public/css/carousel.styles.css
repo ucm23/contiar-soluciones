@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-theme: #ffffff;
+  --dark-theme: #000000;
+  --color-primary: #03296A;
+  --color-primary-light: #03296a50;
+  --color-primary-light-2: #eee;
+  --deep-sky-blue: #00a0df;
+  --color-blue: #023185;
+  --color-white: #ffffff;
+  --color-gold: #c3964e;
+  --color-orange: #e25a28;
+  --color-gray: gray;
+  --gray: #B6B6B6;
+  --gray-light: #B6B6B699;
+  font-family: 'Sharp Sans', sans-serif;
+}
+
+body {
+  font-family: 'Sharp Sans', sans-serif;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.motivation {
+  width: 100%;
+  margin: 3rem 0rem;
+  padding: 4rem 0rem;
+}
+
+.motivation .header {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.carousel-fade {
+  z-index: 2;
+  position: absolute;
+  height: 100%;
+}
+
+.carousel-text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 100%;
+  justify-content: center;
+}
+
+.shadow-txt {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.motivation .header .intro {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 38px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.carousel-paragraph {
+  padding-top: 1px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--color-white);
+}
+
+.carousel-header .carousel-title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.carousel-header .carousel-paragraph {
+  text-align: center;
+  padding-top: 1px;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--color-white);
+}
+
+img.motivation-img {
+  width: auto;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 3rem;
+}
+
+._img_corousel {
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+  filter: grayscale(10%) brightness(80%);
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin-right: 0%;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.form-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-email {
+  padding: 6px;
+  margin-right: 8px;
+  border-radius: 6px;
+  width: 280px;
+  height: 38px;
+  outline: none;
+}
+
+@media (max-width: 952px) {
+  .motivation {
+    padding: 3rem 1.5rem;
+  }
+
+  img.motivation-img {
+    width: auto;
+    height: 250px;
+  }
+
+  .form-flex-row {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .input-email {
+    width: 100%;
+  }
+
+}

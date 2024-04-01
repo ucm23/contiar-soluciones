@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-theme: #ffffff;
+  --dark-theme: #000000;
+  --color-primary: #03296A;
+  --color-primary-light: #03296a50;
+  --color-primary-light-2: #eee;
+  --deep-sky-blue: #00a0df;
+  --color-blue: #023185;
+  --color-white: #ffffff;
+  --color-gold: #c3964e;
+  --color-orange: #e25a28;
+  --color-gray: gray;
+  --gray: #B6B6B6;
+  --gray-light: #B6B6B699;
+}
+
+.section {
+  /*justify-content: center;
+  margin: 3rem 0rem;*/
+  background-color: #B6B6B6;
+  background-image: url('/img/section-bg.jpeg');
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 4rem 0;
+  padding: 8rem 5rem;
+}
+
+.section .section-header {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.section .section-header .intro {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.section .section-header .title {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.section .section-header .paragraph {
+  text-align: left;
+  white-space: normal;
+  padding-top: 1px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--color-white);
+}
+
+@media (max-width: 952px) {
+  .section {
+    padding: 3rem 1.5rem;
+  }
+}

@@ -1,0 +1,62 @@
+{
+     "serv" : [
+        {
+            "t1": "ITS (Intelligent Transport Systems - Sistemas Inteligentes de Transporte)", 
+            "p1": "Suministro, Implementación, Soporte y Mantenimiento de Sistemas Inteligentes de Transporte tales como: PMV (Paneles de Mensajes Variables), Postes SOS (Auxilio Vial), Cámaras de Circuito Cerrado de Televisión para Centros de Control y Operación (C5-C4-C3), Cámaras para Gestión de Tiempos de Cruce (ANPR), Radares, Básculas para Pesaje Estático y Dinámico, Equipo de Peaje y Telepeaje, Estaciones Meteorológica.", 
+            "a1": "https://view.genial.ly/64b2d12493b6cd001302ac80", 
+            "img1": "/s4.png",
+            "clase": "servicio reverse",
+            "direction": "right",
+            "alt": "ITS (Intelligent Transport Systems - Sistemas Inteligentes de Transporte)",
+            "link": true
+        },{
+            "t1": "Análisis, Diseño y Mantenimiento de Sistemas", 
+            "p1": "Implementar sistemas de información con base en mejores prácticas de ingeniería de software, gestión tecnológica, análisis preliminar de cada proceso y bajo métodos comprobados de dimensionamiento de esfuerzo con altos estándares de calidad y seguridad de la información.", 
+            "a1": "/docs/1.pdf", 
+            "img1": "/s1.png",
+            "clase": "servicio",
+            "direction": "left",
+            "alt": "Análisis, Diseño y Mantenimiento de Sistemas"
+        },{
+            "t1": "Integración de hardware y software", 
+            "p1": "Contamos con alianzas estratégicas con socios especializados diseñando, fabricando e implementando tecnologías de información y telecomunicaciones requeridas para lograr la Tranformación digital.", 
+            "a1": "/docs/2.pdf", 
+            "img1":"/s2.png",
+            "clase": "servicio reverse",
+            "direction": "right",
+            "alt": "Integración de hardware y software"
+        },{
+            "t1": "Análisis y Automatización De Procesos", 
+            "p1": "A través de nuestra Fábrica de Software (certificada bajo estándares nacionales PROSOFT), nos dedicamos a producir componentes para automatizar procesos dentro de diferentes Sectores Industriales y Gubernamentales.", 
+            "a1": "/docs/3.pdf", 
+            "img1": "/s3.png",
+            "clase": "servicio",
+            "direction": "left",
+            "alt": "Análisis y Automatización De Procesos"
+        },{
+            "t1": "Diseño  de  Arquitectura Segura TICs", 
+            "p1": "Contar  con  una  arquitectura  TICs  con  base  en  principios  de alta  disponibilidad,  tolerancia  a  fallos,  con  un  grado  alto de  escalabilidad  y  con  una  segmentación  adecuada  que  minimicen  las  vulnerabilidades  y  el  factor  de  exposición  de  los equipos,  procesos y  sistemas  del  entorno  de  operaciones.", 
+            "a1": "/docs/4.pdf",
+            "img1":"/s4.png",
+            "clase": "servicio reverse",
+            "direction": "right",
+            "alt": "Diseño  de  Arquitectura Segura TICs"
+        },{
+            "t1": "Capacitación en  ciberseguridad", 
+            "p1": "Nuestro  programa  de  capacitación  en  ciberseguridad  para  líderes  está  enfocado  a  personas  que tienen  que  tomar  decisiones  en  empresas y  quieren  entender  los  riesgos,  las  regulaciones,  y los  procesos  principales  de  la  ciberseguridad.  Cubrimos  los  temas  de  presupuestos,  contratación  de  personal,  protección  de  activos  importantes,  e  información  relevante  por  industria.", 
+            "a1": "/docs/5.pdf", 
+            "img1": "/s5.png",
+            "clase": "servicio",
+            "direction": "left",
+            "alt": "Capacitación en  ciberseguridad"
+        },{
+            "t1": "Servicio de Actualización y Concientización para administradores y usuarios de Servicios TICs", 
+            "p1": "Recomendaciones para uso seguro de servicios TICs, notas actuales de seguridad en TICs.", 
+            "a1": "/docs/6.pdf", 
+            "img1":"/s6.png",
+            "clase": "servicio reverse",
+            "direction": "right",
+            "alt": "Servicio de Actualización y Concientización para administradores"
+        }
+    ]
+}

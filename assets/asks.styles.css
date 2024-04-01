@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-theme: #ffffff;
+  --dark-theme: #000000;
+  --color-primary: #03296A;
+  --color-primary-light: #03296a50;
+  --color-primary-light-2: #eee;
+  --deep-sky-blue: #00a0df;
+  --color-blue: #023185;
+  --color-white: #ffffff;
+  --color-gold: #c3964e;
+  --color-orange: #e25a28;
+  --color-gray: gray;
+  --gray: #B6B6B6;
+  --gray-light: #B6B6B699;
+}
+
+.asks {
+  display: flex;
+  flex-direction: row;
+  /* gap: 15px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem 0 0 0;
+  padding: 5rem;
+}
+.asks-header {
+  width: 38%;
+}
+.asks-body {
+  width: 57%;
+}
+
+.asks .asks-header .asks-header-title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+.asks .asks-header .asks-header-paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h1.ask-ask {
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0rem;
+}
+
+h1.ask-res {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+
+@media (max-width: 952px) {
+  .asks {
+    padding: 5rem 1rem;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .asks-header {
+    width: 100%;
+  }
+  .asks-body {
+    width: 100%;
+  }
+  .asks .asks-header .asks-header-title {
+    text-align: center;
+  }
+  .asks .asks-header .asks-header-paragraph {
+    text-align: center;
+  }
+}

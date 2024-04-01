@@ -1,0 +1,102 @@
+{
+    
+    "imgs" : [
+        {   
+            "src": "/clientes/1.png",
+            "className": "cliente1 px-15",
+            "alt": "Sedena, cliente de CTI",
+            "width":200,
+            "heigth":200
+        },
+        {       
+            "src": "/clientes/2.png",
+            "className": "cliente2 px-15",
+            "alt": "Cerveza Moctezuma, cliente de CTI",
+            "width":200,
+            "heigth":231
+        },
+        {       
+            "src": "/clientes/3.png",
+            "className": "cliente3 px-15",
+            "alt": "Saving with Energy Mexico, cliente de CTI",
+            "width":480,
+            "heigth":198
+        },
+        {
+            "src": "/clientes/4.jpg",
+            "className": "cliente4 px-15",
+            "alt": "Tela, cliente de CTI",
+            "width":200,
+            "heigth":199
+        },
+        {
+            "src": "/clientes/5.jpg",
+            "className": "cliente5 px-15",
+            "alt": "ICA Infraestuctura, cliente de CTI",
+            "width":200,
+            "heigth":150
+        },
+        {
+            "src": "/clientes/6.webp",
+            "className": "cliente6 px-15",
+            "alt": "Negocios constantes, cliente de CTI",
+            "width":350,
+            "heigth":161
+        },
+        {
+            "src": "/clientes/7.png",
+            "className": "cliente7 px-15",
+            "alt": "Grupo Dragón, cliente de CTI",
+            "width":480,
+            "heigth":108
+        },{   
+            "src": "/clientes/1.png",
+            "className": "cliente1 px-15",
+            "alt": "Sedena, cliente de CTI",
+            "width":200,
+            "heigth":200
+        },
+        {       
+            "src": "/clientes/2.png",
+            "className": "cliente2 px-15",
+            "alt": "Cerveza Moctezuma, cliente de CTI",
+            "width":200,
+            "heigth":231
+        },
+        {       
+            "src": "/clientes/3.png",
+            "className": "cliente3 px-15",
+            "alt": "Saving with Energy Mexico, cliente de CTI",
+            "width":480,
+            "heigth":198
+        },
+        {
+            "src": "/clientes/4.jpg",
+            "className": "cliente4 px-15",
+            "alt": "Tela, cliente de CTI",
+            "width":200,
+            "heigth":199
+        },
+        {
+            "src": "/clientes/5.jpg",
+            "className": "cliente5 px-15",
+            "alt": "ICA Infraestuctura, cliente de CTI",
+            "width":200,
+            "heigth":150
+        },
+        {
+            "src": "/clientes/6.webp",
+            "className": "cliente6 px-15",
+            "alt": "Negocios constantes, cliente de CTI",
+            "width":350,
+            "heigth":161
+        },
+        {
+            "src": "/clientes/7.png",
+            "className": "cliente7 px-15",
+            "alt": "Grupo Dragón, cliente de CTI",
+            "width":480,
+            "heigth":108
+        }
+    ]
+}

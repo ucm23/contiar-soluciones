@@ -1,0 +1,222 @@
+{
+    "0": {
+        "index": 0,
+        "name": "Victum REPSE",
+        "name_": "VICTUM REPSE",
+        "header": {
+            "title": "Emisión y Gestión Eficiente de CFDi y Requisiciones",
+            "paragraph": "Agiliza tu ciclo de cobro y pago, asegurando un control total y visibilidad de tus cuentas por cobrar y pagar.",
+            "suffix": "repse",
+            "imgs": [
+                "1.jpg",
+                "2.jpeg",
+                "3.jpeg"
+            ],
+            "segments": [
+                {
+                    "title": "Administración y Seguimiento de<br/>usuarios",
+                    "paragraph": "Fácil creación y gestión de cada usuario.",
+                    "img": "1.jpg"
+                },
+                {
+                    "title": "Emisión y Gestión Eficiente de <br/>Requisiciones",
+                    "paragraph": "Agiliza tu ciclo de cotización.",
+                    "img": "2.jpeg"
+                },
+                {
+                    "title": "Emisión y Gestión Eficiente de <br/>CFDi y más",
+                    "paragraph": "Asegura un control total y visibilidad de tus cuentas por cobrar y pagar.",
+                    "img": "3.jpeg"
+                }
+            ]
+        },
+        "atributtes": {
+            "paragraph": "Optimiza tu Flujo tu Proceso de Adquisición y Venta de Bienes y Servicios con Victum REPSE",
+            "pros": [
+                {
+                    "title": "Seguridad de Datos",
+                    "paragraph": "Protección robusta y confidencialidad de información"
+                },
+                {
+                    "title": "Personalización",
+                    "paragraph": "Ajuste según requerimientos y branding corporativo"
+                },
+                {
+                    "title": "Acceso Móvil",
+                    "paragraph": "Gestiona documentos desde cualquier lugar"
+                },
+                {
+                    "title": "Escalabilidad",
+                    "paragraph": "Adaptable a crecimiento empresarial y demandas"
+                },
+                {
+                    "title": "Historial",
+                    "paragraph": "Registro detallado de movimientos"
+                },
+                {
+                    "title": "Visibilidad",
+                    "paragraph": "Control total de documentos"
+                }
+            ]
+        },
+        "motivation": {
+            "title": "En Victum-REPSE tenemos los más altos estándares",
+            "paragraph": "No solo gestionamos cifras, creamos historias financieras de éxito. Uniendo fuerzas para transformar la gestión documental en un viaje de eficiencia y prosperidad.",
+            "img": "4.jpeg"
+        },
+        "asks": [
+            {
+                "title": "¿Qué necesito para registrar mi empresa?",
+                "paragraph": "Únicamente necesitas algunos datos y documentos básicos."
+            },
+            {
+                "title": "¿Puedo registrar a mis clientes?",
+                "paragraph": "¡Claro que sí!"
+            },
+            {
+                "title": "¿Qué ayuda recibo en Victum-REPSE?",
+                "paragraph": "Nuestro equipo esta 100% a tu disposicion para ayudarte con la implementacion de tus procesos."
+            }
+        ]
+    },
+    "1": {
+        "index": 1,
+        "name": "Victum METRIX",
+        "name_": "VICTUM METRIX",
+        "header": {
+            "title": "Emisión y Gestión Eficiente de evaluaciones",
+            "paragraph": "Obtén un panorama claro de las habilidades y desempeño de tu equipo mediante evaluaciones. Impulsa el crecimiento individual y colectivo, promoviendo un ambiente de trabajo más productivo",
+            "suffix": "evaluation",
+            "imgs": [
+                "1.jpeg",
+                "2.jpeg",
+                "3.jpg"
+            ],
+            "segments": [
+                {
+                    "title": "Administración y Seguimiento de<br/>usuarios",
+                    "paragraph": "Fácil creación y gestión de cada usuario.",
+                    "img": "1.jpeg"
+                },
+                {
+                    "title": "Emisión y Gestión de <br/>evaluaciones",
+                    "paragraph": "Agiliza tu ciclo de creación y aplicación de evaluaciones.",
+                    "img": "2.jpeg"
+                },
+                {
+                    "title": "Impulso y promueve las<br/>habilidades",
+                    "paragraph": "Promoviendo un ambiente de trabajo más productivo.",
+                    "img": "3.jpg"
+                }
+            ]
+        },
+        "atributtes": {
+            "title": "Potencia el Desarrollo de tu Equipo con Nuestra Plataforma Integral",
+            "pros": [
+                {
+                    "title": "Multidimensional",
+                    "paragraph": "Evalúa en todas direcciones relevantes"
+                },
+                {
+                    "title": "Feedback",
+                    "paragraph": "Retroalimentación profesional [General] [Detallado]"
+                },
+                {
+                    "title": "Informes Visuales",
+                    "paragraph": "Datos claros y gráficos intuitivos"
+                },
+                {
+                    "title": "Privacidad",
+                    "paragraph": "Seguridad en la gestión de datos"
+                },
+                {
+                    "title": "Facilidad de Uso",
+                    "paragraph": "Interfaz intuitiva, sin complicaciones"
+                }
+            ]
+        },
+        "motivation": {
+            "title": "En Victum-METRIX tenemos los más altos estándares",
+            "paragraph": "No solo gestionamos cifras, creamos historias productivas de éxito. Nuestra aplicación de Evaluaciones 360 ofrece un enfoque completo para el desarrollo del personal. ¡Potencia tu equipo con evaluaciones efectivas y toma decisiones informadas para el desarrollo continuo!",
+            "img": "2.jpeg"
+        },
+        "asks": [
+            {
+                "title": "¿Cómo funciona la Evaluación 360 en Victum-METRIX?",
+                "paragraph": "La Evaluación 360 en nuestra aplicación permite a los usuarios recibir feedback de manera integral, involucrando a colegas, supervisores y subordinados. Cada participante brinda sus perspectivas para proporcionar una evaluación completa del desempeño."
+            },
+            {
+                "title": "¿Cómo garantizan la privacidad de los datos en la aplicación?",
+                "paragraph": "Utilizamos medidas de seguridad avanzadas para proteger la confidencialidad de los datos. Solo los participantes autorizados tienen acceso a la información relevante de las evaluaciones."
+            },
+            {
+                "title": "¿Puedo acceder a las evaluaciones en dispositivos móviles?",
+                "paragraph": "¡Claro que sí! permite realizar y revisar evaluaciones en cualquier momento y lugar, brindando flexibilidad y conveniencia."
+            },
+            {
+                "title": "¿Cómo se generan los informes visuales de las evaluaciones?",
+                "paragraph": "Los informes visuales son generados automáticamente, presentando datos de manera clara y comprensible. Gráficos intuitivos proporcionan una visión instantánea del desempeño, facilitando la toma de decisiones informadas."
+            }
+        ]
+    },
+    "2": {
+        "index": 2,
+        "name": "Soporte y Mesa de Ayuda",
+        "name_": "SOPORTE Y MESA DE AYUDA",
+        "header": {
+            "title": "Optimiza tu Flujo Financiero con Victum REPSE: Emisión y Gestión Eficiente de CFDi y Requisiciones",
+            "paragraph": "Agiliza tu ciclo de cobro y pago, asegurando un control total y visibilidad de tus cuentas por cobrar y pagar.",
+            "suffix": "track",
+            "imgs": [
+                "1.jpeg",
+                "2.jpeg",
+                "3.avif"
+            ]
+        },
+        "atributtes": [
+            {
+                "title": "Seguridad de Datos",
+                "paragraph": "Protección robusta y confidencialidad de información"
+            },
+            {
+                "title": "Personalización",
+                "paragraph": "Ajuste según requerimientos y branding corporativo"
+            },
+            {
+                "title": "Acceso Móvil",
+                "paragraph": "Gestiona documentos desde cualquier lugar"
+            },
+            {
+                "title": "Escalabilidad",
+                "paragraph": "Adaptable a crecimiento empresarial y demandas"
+            },
+            {
+                "title": "Historial",
+                "paragraph": "Registro detallado de movimientos"
+            },
+            {
+                "title": "Visibilidad",
+                "paragraph": "Control total de documentos"
+            }
+        ],
+        "motivation": {
+            "title": "En Victum-REPSE tenemos los más altos estándares",
+            "paragraph": "No solo gestionamos cifras, creamos historias financieras de éxito. Fusionamos la innovación de una startup con la solidez de estándares financieros excepcionales. Nuestro respaldo proviene de los principales líderes en inversión, uniendo fuerzas para transformar la gestión documental en un viaje de eficiencia y prosperidad.",
+            "img": "4.jpeg"
+        },
+        "asks": [
+            {
+                "title": "¿Qué necesito para registrar mi empresa?",
+                "paragraph": "Únicamente necesitas algunos datos y documentos básicos."
+            },
+            {
+                "title": "¿Puedo registrar a mis clientes?",
+                "paragraph": "¡Claro que sí!"
+            },
+            {
+                "title": "¿Qué ayuda recibo en Victum-REPSE?",
+                "paragraph": "Nuestro equipo esta 100% a tu disposicion para ayudarte con la implementacion de tus procesos."
+            }
+        ]
+    }
+}

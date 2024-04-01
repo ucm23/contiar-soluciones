@@ -1,0 +1,50 @@
+{
+    "services" : [
+        {
+            "id": 10,
+            "content": "Implementación y puesta en marcha de Sistemas de Peaje, Telepeaje e ITS, a través de software propio o suministrado por el cliente, con hardware multimarca." 
+        },{
+            "id": 15,
+            "content": "Monitoreo de ciberseguridad: Análisis forense, análisis de penetración y vulnerabilidad, integridad de bases de datos." 
+        },{
+            "id": 3,
+            "content": "Elaboración de estudios y dictámenes justificativos para implementación de obras nuevas o existentes." 
+        },{
+            "id": 6,
+            "content": "Desarrollo de aplicaciones a medida, interfaces de comunicación, páginas web, portales de facturación, sistemas de comunicaciones, etc." 
+        },{
+            "id": 12,
+            "content": "Implementación de Sistemas de Comunicación, incluyendo Fibra óptica, hardware y Proyecto Ejecutivo." 
+        },{
+            "id": 5,
+            "content": "Desarrollo de Proyectos Ejecutivos sobre Sistemas de Peaje, Telepeaje, ITS y Comunicaciones." 
+        },{
+            "id": 1,
+            "content": "Asesoría técnica y acompañamiento en Operación, Mantenimiento y Rehabilitación de Autopistas." 
+        },{
+            "id": 11,
+            "content": "Desarrollo de soluciones de hardware a medida para Peaje, Telepeaje, ITS, etc." 
+        },{
+            "id": 2,
+            "content": "Desarrollo de Términos de Referencia para contratos y licitaciones." 
+        },{
+            "id": 13,
+            "content": "Mantenimiento a sistemas existentes de Peaje, Telepeaje e ITS." 
+        },{
+            "id": 4,
+            "content": "Especialistas en calibración de estándares de desempeño." 
+        },{
+            "id": 7,
+            "content": "Estudios de proyección de costos por mantenimiento." 
+        },{
+            "id": 9,
+            "content": "Estudios de trafico de origen y destino." 
+        },{
+            "id": 14,
+            "content": "Mantenimiento de sistemas ERP (SAP)." 
+        },{
+            "id": 8,
+            "content": "Proyecciones de gastos." 
+        }
+    ]
+}

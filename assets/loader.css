@@ -1,0 +1,225 @@
+.loadingContainer {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .loader {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      43deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  
+    animation: rotation 0.5s linear infinite;
+  }
+  
+  .loader div {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(358deg);
+    }
+  }
+
+  .form-box {
+    max-width: 300px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+    margin: 0 auto;
+  }
+
+  #add_blog_form{
+    max-width: 400px;
+    min-width: 400px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+    margin: 0 auto;
+  }
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  /*Form text*/
+  .title {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /*Inputs box*/
+  .form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+  }
+  
+  .input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+  }
+  
+  .form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: #e0ecfb;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color .3s ease;
+  }
+  
+  .form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+  }
+  
+  /*Button*/
+
+ 
+
+  .form button {
+    background-color: #0066ff;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #005ce6;
+  }
+
+  #descBlog{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  #descBlog:focus{
+    outline: none;
+  }
+
+  #btn-success{
+    background-color: #000000 !important;
+  }
+
+  
+  .my_spinner {
+    /* position: absolute; */
+    width: 128px;
+    height: 128px;
+    top: calc(50% - 64px);
+    left: calc(50% - 64px);
+    transform: perspective(206px) rotateX(45deg);
+    margin: 0 auto;
+    margin-bottom: 1.4em;
+  }
+  
+  .my_outer {
+    box-sizing: border-box;
+    animation: spin 3s linear infinite;
+    height: 100%;
+  }
+  
+  .my_inner {
+    position: absolute;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+  }
+  
+  .tll {
+    top: 0;
+    left: 0;
+    border-top: 8px solid #0ac555;
+    border-left: 10px solid #0ac555;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  .trr {
+    top: 0;
+    right: 0;
+    border-top: 8px solid #0575E6;
+    border-right: 10px solid #0575E6;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  .brr {
+    bottom: 0;
+    right: 0;
+    border-bottom: 8px solid  #0ac555;
+    border-right: 10px solid  #0ac555;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  .bll {
+    bottom: 0;
+    left: 0;
+    border-bottom: 8px solid  #0575E6;
+    border-left: 10x solid #0575E6;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

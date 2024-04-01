@@ -1,0 +1,40 @@
+{
+     "cert" :  [
+        {   
+            "src": "./cert/1.jpg",
+            "className": "cert1 bg-white mx-15 my-5",
+            "alt": "Certificación de CompTIA"
+        },
+        {       
+            "src": "./cert/3.png",
+            "className": "cert3  mx-15 my-5",
+            "alt": "Certificación de PECB"
+            
+        },
+        {       
+            "src": "./cert/4.png",
+            "className": "cert4 bg-white mx-15 my-5",
+            "alt": "Certificación de GIAC"
+        },
+        {
+            "src": "./cert/2.jpg",
+            "className": "cert2 bg-white mx-15 my-5",
+            "alt": "Certificación de CISCO"
+        },
+        {
+            "src": "./cert/5.png",
+            "className": "cert5 bg-white mx-10 my-5",
+            "alt": "Certificación de EC-Council"
+        },
+        {
+            "src": "./cert/8.png",
+            "className": "cert7 bg-white mx-10 my-5",
+            "alt": "Certificación de Mile2"
+        },
+        {
+            "src": "./cert/6.png",
+            "className": "cert6 bg-white mx-10 my-5",
+            "alt": "Certificación de Fortinet"
+        }
+    ]
+}
