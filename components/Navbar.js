@@ -4,7 +4,6 @@ import { Fade } from "react-awesome-reveal";
 import { ColorButton } from '../lib/theme';
 import { useRouter } from 'next/router'
 
-import ChatBot from 'react-simple-chatbot'
 
 import { RiBuilding2Line, RiFolderUserLine, RiFolderChartLine, } from "react-icons/ri";
 const icons_ = [RiFolderUserLine, RiBuilding2Line, RiFolderChartLine]
@@ -76,13 +75,13 @@ const Bar = ({ seteEstoyMovil, temp, children }) => {
 
                     <Link href="/">
                         <a className="nav_logo">
-                            <img className='logo_cti' src='/logo.png' alt='Logo grupo CTI TECH_IN POS' />
-                            <p className={`nav_title ${showSubMenu1 && "bg-gray"}`}>Grupo CTI </p>
+                            <img className='logo_cti' src='/logo.png' alt='Logo Contiar Soluciones' />
+                            {/*<p className={`nav_title ${showSubMenu1 && "bg-gray"}`}>Consultores en Sistemas de Tráfico e ITS</p>*/}
                         </a>
                     </Link>
-                    <p className={`title_desc ${showSubMenu1 && "bg-gray"}`}>Consultores en Sistemas de Tráfico e ITS</p>
+                    {/*<p className={`title_desc ${showSubMenu1 && "bg-gray"}`}>Consultores en Sistemas de Tráfico e ITS</p>*/}
                     <ul className={navMobile ? 'nav_mobile nav__link--show' : 'nav_link nav_link_menu'} >
-                        <img onClick={handleNav} src="/close.svg" className="nav_close" alt='Cerrar Navbar de Grupo CTI' />
+                        <img onClick={handleNav} src="/close.svg" className="nav_close" alt='Cerrar Navbar de Contiar Soluciones' />
                         <li className="nav_items">
                             <Link href="/">
                                 <a className={`nav_links ${showSubMenu1 && "bg-gray"}`}>Inicio</a>

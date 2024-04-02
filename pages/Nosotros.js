@@ -25,20 +25,29 @@ const Nosotros = () => {
                 <section className='d-flex overhid'>
                     <section className='nosotros-texto'>
                         <Fade direction="right">
-                            <h1 className='nosotros-titulo'>Grupo CTI Tech-IN POS</h1>
-                            <p className='nosotros-text'>Somos un equipo multidisciplinario con más de 20 años de experiencia en servicios
-                                de consultoría especializada en: Sistemas de Tráfico- ITS-PEAJE-TELEPEAJE y Sistemas de Gestión para
-                                Autopistas de Cuota (SISTEMAS PROPIOS-Fabricantes y desarrollo propio), Seguridad Informática, Virtualización,
-                                Soporte Técnico, Infraestructura, Análisis y Diseño de Procesos, Políticas, Registro de Propiedad Intelectual
-                                Desarrollo de Software a grandes corporativos de los sectores: financiero, manufactura, construcción,
-                                transporte, farmacéutico, automotriz, hospitalario, educativo y gobierno. Además, contamos con nuestras propias Plataformas TI, que complementan nuestra oferta de servicios y brindan soluciones eficientes a nuestros clientes.</p>
+                            <h1 className='nosotros-titulo'>CONTIAR SOLUCIONES S.A. DE C.V.</h1>
+                            <p className='nosotros-text'>
+                                Somos una empresa mexicana que a lo largo de 4 años ha desarrollado experiencia, compromiso y pasión por la creación e implementación de proyectos especializados.
+                                Nuestra filosofía empresarial se basa en el crecimiento continuo a través de la actualización de nuestros instrumentos de trabajo, es decir, en mantener una
+                                visión vanguardista que supera los retos de cada proyecto, con el objetivo de cumplir con las expectativas de nuestros
+                                clientes.
+                            </p>
+
+                            <p className='nosotros-text'>
+                                <strong>Experiencia en:</strong>
+                            </p>
+                            <p className='nosotros-text'>
+                                • Blowing-Fibra Óptica: Más de 2,000 kilómetros de experiencia realizando Inmersión de Fibra Óptica por el método de Blowing. MRO ESTADO DE MÉXICO-MICHOACÁN. Autopista México - GDL. <br />
+                                • Zanjado: Villagrán, Gto — Querétaro Bis.<br />
+                                • Canalización: Villagrán, Gto — Querétaro Bis.<br />
+                            </p>
                         </Fade>
                     </section>
                     <Fade direction="left">
                         <section className='cti_person'>
                             <Image
                                 src="/Person_Image.svg"
-                                alt="Negocios en CTI"
+                                alt="Negocios"
                                 width={520}
                                 height={520}
                             />
@@ -134,10 +143,9 @@ const Nosotros = () => {
                                 Estados Unidos, Centro y Sur de América.
     </p>*/}
                             <p>
-                                Ser el aliado estratégico en Tecnología,
-                                que nos permita posicionarnos como el principal referente en soluciones de sistemas inteligentes de transporte,
-                                tecnologías de la información y ciberseguridad en México,
-                                Estados Unidos, Centro y Sur de América.
+                                Consolidar y posicionar nuestro liderazgo en servicios y soluciones en México y América Latina, mediante la satisfacción
+                                de las necesidades de los clientes de forma presta y efectiva, todo ello con distinción en nuestra capacidad, experiencia,
+                                conocimiento, compromiso e innovación.
                             </p>
                         </div>
                     </Fade>
@@ -149,10 +157,9 @@ const Nosotros = () => {
                                 clientes, socios, mayoristas y fabricantes para contribuir en la innovación y desarrollo tecnológico.
 </p>*/}
                             <p>
-                                Impulsar y reforzar innovación y desarrollo tecnológico,
-                                dentro del sector privado y de servicios,
-                                con la finalidad de fortalecer los procesos mediante nuestro personal y herramientas tecnológicas,
-                                contribuyendo al crecimiento económico de nuestros clientes, colaboradores y socios.
+                                Ofrecer a nuestros clientes excelencia, a través de la optimización de nuestros recursos y la creación de sinergias que contribuyan al logro de sus metas, bajo un
+                                ambiente de calidad, honestidad, cooperación, respeto, limpieza, trabajo en equipo y un amplio sentido de urgencia en el
+                                servicio que el cliente requiera.
                             </p>
                         </div>
                     </Fade>

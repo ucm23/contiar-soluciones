@@ -165,12 +165,12 @@ const index = () => {
                 <Navbar >
                     <Fade direction="left">
                         <h1 className="hero_title">
-                            Grupo CTI<br />Tech-IN POS
+                        <br /> Contiar Soluciones
                         </h1>
                     </Fade>
                     <Fade direction="right">
                         <p className="hero_texto">
-                            Tu mejor aliado tecnológico.
+                            Tu mejor aliado tecnológico
                         </p>
                     </Fade>
 
@@ -192,7 +192,14 @@ const index = () => {
                     <div className='bienvenida'>
                         <Fade direction="left">
                             <h1 className='bienvenida_titulo'>Bienvenidos</h1>
-                            <p className='bienvenida_texto'>Grupo CTI Tech-IN POS es una empresa que se creó en el año 2010 con el objetivo de vender Hardware, Software y Servicios de Tecnología, ofrecemos un servicio y atención personalizada acorde a las necesidades de nuestros clientes, con una oferta competitiva y de valor en conjunto con nuestros socios de negocios.</p>
+                            <p className='bienvenida_texto'>
+                                CONTIAR SOLUCIONES S.A. DE C.V. es una empresa mexicana que se creó en el año 2019, con el paso del tiempo hemos
+                                desarrollado experiencia, compromiso y pasión por la creación e implementación de proyectos especializados.
+                                Nuestra filosofía empresarial se basa en el crecimiento continuo a través de la actualización de nuestros instrumentos de trabajo, es decir, en mantener una
+                                visión vanguardista que supera los retos de cada proyecto, con el objetivo de cumplir con las expectativas de nuestros
+                                clientes.
+
+                            </p>
                         </Fade>
                     </div>
                     <div className='img_bienvenida' style={{ width: 460 }} >
@@ -201,12 +208,12 @@ const index = () => {
                             width={460}
                             height={510}
                             layout="responsive"
-                            alt='Bienvenida al grupo CTI' />
+                            alt='Bienvenida al Contiar Soluciones' />
                     </div>
                     <div className='years'>
                         <div className='year'>
                             <Fade direction="left">
-                                <h1 className='year-title'>{year - 2010}</h1>
+                                <h1 className='year-title'>{year - 2019}</h1>
                                 <p className='year-text'>Años de experiencia</p>
                             </Fade>
                         </div>
@@ -216,25 +223,6 @@ const index = () => {
 
             <section className='container_ py-2' >
                 <Tabs defaultActiveKey="1" centered items={items} size='large' />
-            </section>
-
-            <section className='video_cti'>
-                <div className='video' itemScope itemType="https://schema.org/VideoObject">
-                    <meta itemProp="name" content="Grupo CTI - Tu mejor aliado" />
-                    <meta itemProp="description" content="Grupo CTI - Tu mejor aliado" />
-                    <meta itemProp="uploadDate" content="2022-10-24T21:02:11.000Z" />
-                    <meta itemProp="thumbnailUrl" content="https://s1.dmcdn.net/v/UKbUh1ZLm3dcfdnLV/x180" />
-                    <meta itemProp="duration" content="P260S" />
-                    <meta itemProp="embedUrl" content="https://www.dailymotion.com/embed/video/kb0mTEPffjFkYAyqvsn" />
-                    <iframe 
-                    className='i_video' 
-                    frameBorder="0" 
-                    type="text/html" 
-                    src="https://www.dailymotion.com/embed/video/kb0mTEPffjFkYAyqvsn?autoplay=1" 
-                    //allow="autoplay" allowFullScreen
-                    >
-                    </iframe>
-                </div>
             </section>
 
             {/* Servicios */}
@@ -286,7 +274,7 @@ const index = () => {
             <section>
                 <section className='containerWP-2 d-flex flex-column'>
                     <h1 className='clientes-titulo'>Nuestros Clientes</h1>
-                    <h3 className='clientes-subtitulo'>Ellos confian en la calidad de Grupo CTI Tech-IN POS</h3>
+                    <h3 className='clientes-subtitulo'>Ellos confian en la calidad de CONTIAR SOLUCIONES S.A. DE C.V.</h3>
                     <div className="slider">
                         <div className="slide-track">
                             {

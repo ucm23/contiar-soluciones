@@ -3,22 +3,28 @@
         {
             "id": 7,
             "content": "Plataforma unificada de Peaje-Telepeaje-ITS-SGA (VICTUM®)"
-        },{
+        },
+        {
             "id": 6,
             "content": "Sistema para Gestión de Condominios (RESIDENCES®)"
-        },{
+        },
+        {
             "id": 2,
             "content": "Sistema de Gestión de Autopistas (VICTUM SGA®)"
-        },{
+        },
+        {
             "id": 5,
             "content": "Software antipishing, antivirus, Endpoint detect and response"
-        },{
+        },
+        {
             "id": 1,
             "content": "Sistema de Peaje y Telepeaje, con integración de aplicaciones móviles de pago. (V-PEAJE®, V-TELEPEAJE®)"
-        },{
+        },
+        {
             "id": 3,
             "content": "Sistema de atención a usuarios: Auxilio vial, tramites de derecho de vía, quejas y sugerencias (VICTUM®)"
-        },{
+        },
+        {
             "id": 4,
             "content": "Portal de gestión de proveedores integrado con ERP (Gestión de REPSE VICTUM RE®)"
         }

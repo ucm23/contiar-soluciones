@@ -3,22 +3,22 @@
         {
             "titulo": "Transporte",
             "src": "/carro.webp",
-            "alt": "CTI en sector de transporte"
+            "alt": "Sector de transporte"
         },
         {
             "titulo": "Educación",
             "src": "/escuela.jpeg",
-            "alt": "CTI en sector de Educación"
+            "alt": "Sector de Educación"
         },
         {
             "titulo": "Autopistas",
             "src": "/calle.jpg",
-            "alt": "CTI en sector de Autopistas"
+            "alt": "Sector de Autopistas"
         },
         {
             "titulo": "Inmobiliario",
             "src": "/casa.jpg",
-            "alt": "CTI en sector de Inmobiliario"
+            "alt": "Sector de Inmobiliario"
         }
     ]
 }

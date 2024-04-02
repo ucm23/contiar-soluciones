@@ -27,11 +27,11 @@ const Service = ({titulo, descrip, icono}) => {
                     </div>
 
                     <Typography className='mtb-5' variant="h5" component="div" textAlign={'center'}>
-                        {titulo} {icono}
+                        {titulo}
                     </Typography>
-                    <Typography variant="body2">
-                        {descrip}
-                    </Typography>
+                    <p variant="body2">
+                        <div dangerouslySetInnerHTML={{ __html: descrip }} />
+                    </p>
                 </CardContent>
                 <CardActions>
                     <Stack spacing={3} direction="row" className='mx-auto mb-4'>

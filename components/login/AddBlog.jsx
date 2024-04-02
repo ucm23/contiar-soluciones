@@ -28,7 +28,7 @@ const AddBlog = () => {
     const [Data, setData] = useState({
         title: "",
         body: "",
-        author: "Grupo CTI",
+        author: "Contiar Soluciones",
         image: "http://"
     })
 

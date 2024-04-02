@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .logo_cti {
-    width: 40%;
+    width: 95%;
 }
 
 .hero {
@@ -929,6 +929,12 @@ img.img-ideas {
     margin: 0 auto;
 }
 
+.bg-aviso {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .nosotros-texto {
     width: 60%;
     display: flex;
@@ -938,6 +944,17 @@ img.img-ideas {
     text-align: justify;
     padding: 0 40px;
     line-height: 2.15;
+}
+
+.nosotros-texto_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 33px;
+    line-height: 2.15;
+    margin-bottom: 50px;
 }
 
 .nosotros-titulo {
@@ -2303,7 +2320,7 @@ img.img-ideas {
 
     .hero_texto,
     .nav_title {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .logo_cti {
@@ -2550,8 +2567,8 @@ img.img-ideas {
     flex-direction: row;
 }
 
-.header,
-.footer {
+.header_,
+.footer_ {
     flex: 0 0 auto;
     background-color: #ccc;
     padding: 10px;

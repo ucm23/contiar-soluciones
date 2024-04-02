@@ -2,7 +2,7 @@
     "Blogdata": [
         {
             "id": 1,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "15 Ago, 2022",
             "title": "La evolución del rol de la mujer mexicana en la sociedad y el sector tecnológico",
             "cover": "/blog/blog1.jpg",
@@ -15,7 +15,7 @@
             }
         },{
             "id": 2,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "14 Ago, 2022",
             "title": "Digitalización y Tecnología: el nuevo imperativo educatico",
             "cover": "/blog/blog2.jpeg",
@@ -29,7 +29,7 @@
         },
         {
             "id": 3,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "12 Ago, 2022",
             "title": "Mejora la motivación de los empleados de tu empresa",
             "cover": "/blog/blog4.jpeg",
@@ -43,7 +43,7 @@
         },
         {
             "id": 4,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "07 Ago, 2022",
             "title": "Aumentan ataques cibernéticos en las empresas con el home office",
             "cover": "/blog/blog5.jpeg",
@@ -57,7 +57,7 @@
         },
         {
             "id": 5,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "05 Ago, 2022",
             "title": "Ataques de ciberseguridad más comunes en las empresas",
             "cover": "/blog/blog6.jpeg",
@@ -71,7 +71,7 @@
         },
         {
             "id": 6,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "31 Jul, 2022",
             "title": "¿Por qué debemos tomar muy en serio el tema de ciberseguridad?",
             "cover": "/blog/blog7.jpeg",
@@ -85,7 +85,7 @@
         },
         {
             "id": 7,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "26 Jul, 2022",
             "title": "Alojar o no alojar en nube, esa es la cuestión",
             "cover": "/blog/blog8.jpeg",
@@ -100,7 +100,7 @@
         },
         {
             "id": 8,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "22 Jul, 2022",
             "title": "Diferencias entre Diseño Gráfico y Diseño Web",
             "cover": "/blog/blog9.jpeg",
@@ -114,7 +114,7 @@
         },
         {
             "id": 9,
-            "author": "Grupo Cti",
+            "author": "Contiar Soluciones",
             "date": "19 Jul, 2022",
             "title": "Beneficios de las aplicaciones móviles para mi empresa",
             "cover": "/blog/blog3.jpg",

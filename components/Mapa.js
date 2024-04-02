@@ -1,8 +1,8 @@
 import { MapContainer,TileLayer,Marker,Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const position = [19.4406049398052, -99.19983385061217];
-const center = [19.4406049398052, -99.19853385061217];
+const position = [25.69098374905742, -100.37824879374838];
+const center = [25.69098374905742, -100.37824879374838];
 
 const Mapa = () => {
     return (

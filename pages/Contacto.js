@@ -21,10 +21,10 @@ const Contacto = () => {
                     </Fade>
                 </Navbar>
 
-                {/* Encabezado */}
+                {/* Encabezado 
                 <section className="hero_container container">
 
-                </section>
+                </section>*/}
             </header>
 
             <div className="overhid">
@@ -44,7 +44,8 @@ const Contacto = () => {
                                                 Ubicación
                                             </div>
                                             <div className="contacto_parrafo">
-                                                Av. Ejército Nacional 769, piso 2. Col. Granada C.P. 11520, CDMX.
+                                                Ejército Nacional 769, Piso 2, Colonia Granada, C.P. 11520, Alcaldía Miguel Hidalgo, CDMX <br/><br/>
+                                                MONTERREY: Real de San Juan 102, Col. Real de San Jerónimo, C.P. 64634, Monterrey, N.L.
                                             </div>
                                         </div>
                                     </div>
@@ -57,7 +58,7 @@ const Contacto = () => {
                                                 Correo
                                             </div>
                                             <div className="contacto_parrafo">
-                                                contacto@consultores-cti.com.mx<br /> gsamano@orbnote.com
+                                                luis.ruiz@contiar.mx
                                             </div>
                                         </div>
                                     </div>
@@ -70,7 +71,8 @@ const Contacto = () => {
                                                 Teléfono
                                             </div>
                                             <div className="contacto_parrafo">
-                                                811 588 03 05
+                                                CDMX: 55 78 592984 <br />
+                                                MTY: 81 81 43 9592
                                             </div>
                                         </div>
                                     </div>

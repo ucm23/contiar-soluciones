@@ -1,14 +1,14 @@
 FROM node:14.18.0-alpine
 
-RUN mkdir /cti
+RUN mkdir /contiar-soluciones
  
-WORKDIR /cti
+WORKDIR /contiar-soluciones
 
-COPY ./package.json /cti
+COPY ./package.json /contiar-soluciones
 
 RUN npm install
 
-COPY . /cti
+COPY . /contiar-soluciones
 
 RUN npm run build
 
