@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "./NavBar";
 import React, { useEffect, useState, useRef, useMemo, memo } from "react"
 import { indexLogs } from "../../api/logs";
 import { Spin } from 'antd';

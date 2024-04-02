@@ -1,15 +1,17 @@
-FROM node:14.18.0-alpine
+FROM node:18-alpine
 
-RUN mkdir /contiar-soluciones
+# RUN mkdir /contiar-soluciones
  
 WORKDIR /contiar-soluciones
 
-COPY ./package.json /contiar-soluciones
+COPY package.json package-lock.json /contiar-soluciones/
 
 RUN npm install
 
 COPY . /contiar-soluciones
 
 RUN npm run build
+
+EXPOSE 3000
 
 CMD ["npm", "start"] 

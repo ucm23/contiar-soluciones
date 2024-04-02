@@ -1,13 +1,8 @@
-version: "3.6"
+version: "3"
 
 services:
   contiar-soluciones:
     container_name: contiar-web
     image: gilbertolpz/orbnote:contiar-web
-    build:
-      context: ./
-      dockerfile: Dockerfile
     ports:
       - 3000:3000
-    volumes:
-      - .:/contiar-soluciones 
