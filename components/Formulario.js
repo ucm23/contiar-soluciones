@@ -9,11 +9,36 @@ const Formulario = () => {
 
 	const [formularioenviado, setformularioenviado] = useState(false);
 
-	const sendEmail = () => {
+	/*const sendEmail = () => {
 		emailjs.sendForm('service_f8cxw7w', 'template_84xbcfa', form.current, '3TkCFtArpfX95oASO')
 			.then(response => () => { })
 			.catch(er => () => { })
+	}*/
+
+	const sendEmail = async (values) => {
+		console.log("🚀 ~ sendEmail ~ values:", values)
+		try {
+	
+			let bodyR = JSON.stringify(values)
+			let headersList = {
+				"Accept": "*/*",
+				"Content-Type": "application/json"
+			}
+
+			let response = await fetch("https://backend-landing-pages.vercel.app/send-contact-email-contiar", {
+				method: "POST",
+				headers: headersList,
+				body: bodyR
+			});
+	
+			let data = await response.text();
+			console.log(data);
+	
+		} catch (error) {
+			console.log("🚀 ~ sendEmail ~ error:", error)
+		}
 	}
+	
 
 	return (
 		<Formik
@@ -43,7 +68,7 @@ const Formulario = () => {
 			}}
 
 			onSubmit={(valores, { resetForm }) => {
-				sendEmail();
+				sendEmail({...valores});
 				resetForm()
 				setformularioenviado(true);
 				setTimeout(() => {

@@ -1192,7 +1192,7 @@ img.img-ideas {
 }
 
 .area-contacto {
-    width: 18%;
+    width: 25%;
     height: 80%;
 }
 
@@ -1276,7 +1276,7 @@ img.img-ideas {
     background: #fff;
     border-radius: 5px;
     padding: 20px;
-    filter: drop-shadow(0 0 0.45rem rgba(0, 0, 0, 0.281));
+    filter: drop-shadow(0 0 0.45px rgba(0, 0, 0, 0.281));
 }
 
 .formulario>div {
@@ -1786,8 +1786,10 @@ img.img-ideas {
     .contacto-cont {
         width: 100%;
         right: 0;
-        flex-direction: row;
-        flex-wrap: wrap;
+        /*flex-direction: row;
+        flex-wrap: wrap;*/
+        display: flex;
+        align-items: center;
     }
 
     .leaflet-container {
@@ -1804,6 +1806,7 @@ img.img-ideas {
 
     .formulario {
         margin-top: 10px;
+        padding: 20px 8px;
     }
 }
 
@@ -1836,7 +1839,7 @@ img.img-ideas {
     }
 
     .contacto1 {
-        width: 40%;
+        width: 80%;
     }
 
     .area-contacto {

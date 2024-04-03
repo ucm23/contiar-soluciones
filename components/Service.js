@@ -29,7 +29,7 @@ const Service = ({titulo, descrip, icono}) => {
                     <Typography className='mtb-5' variant="h5" component="div" textAlign={'center'}>
                         {titulo}
                     </Typography>
-                    <p variant="body2">
+                    <p variant="body2" style={{ textAlign: 'justify' }}>
                         <div dangerouslySetInnerHTML={{ __html: descrip }} />
                     </p>
                 </CardContent>
