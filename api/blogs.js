@@ -7,7 +7,7 @@ export const indexBlogs = async ({ project_id }) => {
         let headers = getHeaders({})
         let response = await Fetcher({
             method: 'GET',
-            url: `/blogs?project_id=eq.${project_id}&select=*`,
+            url: `/blogs_contiar?project_id=eq.${project_id}&select=*`,
             headers,
         });
         console.log("🚀 ~ 10 indexBlogs ~ response:", response)

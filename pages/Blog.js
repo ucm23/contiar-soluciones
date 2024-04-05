@@ -21,19 +21,7 @@ const Blog = () => {
 
     const getData = async () => {
         try {
-            /*const resBlog = await fetch(url, {
-                method: 'GET',
-                headers: {
-                    "apikey": apikey,
-                    "Authorization": auth
-                }
-            });
-            console.log("🚀 ~ resBlog:", resBlog)
-            const Blog = await resBlog.json();*/
-
-            const response = await indexBlogs({ project_id: 1 })
-            console.log("🚀 ~ getData ~ response:", response)
-
+            const response = await indexBlogs({ project_id: 3 })
             setBlogdata(response?.data)
         } catch (error) {
             console.log("🚀 ~ getData ~ error:", error)

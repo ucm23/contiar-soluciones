@@ -34,7 +34,6 @@ const Formulario = () => {
 			);
 			let data = await response.text();
 			console.log(data);
-
 		} catch (error) {
 			console.log("🚀 ~ sendEmail ~ error:", error)
 		} finally {
@@ -54,19 +53,12 @@ const Formulario = () => {
 
 			validate={(valores) => {
 				let errores = {};
-
 				if (!valores.nombre) errores.nombre = 'Por favor ingresa un nombre';
-				else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(valores.nombre))
-					errores.nombre = 'El nombre solo puede contener letras y espacios';
-
+				else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(valores.nombre)) errores.nombre = 'El nombre solo puede contener letras y espacios';
 				if (!valores.correo) errores.correo = 'Por favor ingresa un correo'
-				else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.correo))
-					errores.correo = 'El correo debe tener el sig. formato correo@correo.com';
-
+				else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.correo)) errores.correo = 'El correo debe tener el sig. formato correo@correo.com';
 				if (!valores.telefono) errores.telefono = 'Por favor ingresa un número de télefono';
-
 				if (!valores.mensaje) errores.mensaje = 'Por favor ingresa un mensaje';
-
 				return errores;
 			}}
 
@@ -80,7 +72,6 @@ const Formulario = () => {
 			}}
 		>
 			{({ values, errors, touched, handleSubmit, handleChange, handleBlur }) => (
-
 				<form ref={form} className='formulario' onSubmit={handleSubmit}>
 					<h1 className="titulo_mapa">Escríbenos</h1>
 					<div>
@@ -96,7 +87,6 @@ const Formulario = () => {
 							onBlur={handleBlur} />
 					</div>
 					{touched.nombre && errors.nombre && <div className='error'> {errors.nombre} </div>}
-
 					<div className='footer-blocks'>
 						<div className='correo-tel m-correo-tel'>
 							<div>
@@ -130,7 +120,6 @@ const Formulario = () => {
 							{touched.telefono && errors.telefono && <div className='error'> {errors.telefono} </div>}
 						</div>
 					</div>
-
 					<div>
 						<label htmlFor='mensaje'>Mensaje: </label>
 						<textarea
@@ -155,7 +144,6 @@ const Formulario = () => {
 							A veces, nuestros correos electrónicos pueden ser filtrados incorrectamente y terminar en estas carpetas.
 						</p>}
 				</form>
-
 			)}
 		</Formik>
 	);

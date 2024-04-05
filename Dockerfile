@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:latest
 
 # RUN mkdir /contiar-soluciones
  
@@ -14,4 +14,5 @@ RUN npm run build
 
 EXPOSE 3000
 
-CMD ["npm", "start"] 
+CMD ["npm", "start"]
+

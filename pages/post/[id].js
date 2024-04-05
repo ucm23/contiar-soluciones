@@ -30,7 +30,7 @@ const post = () => {
             )
             const Blog = await resblog?.json();
             setBlogdata(Blog)*/
-            const response = await indexBlogs({ project_id: 1 })
+            const response = await indexBlogs({ project_id: 3 })
             console.log("🚀 ~ getData ~ response:", response)
 
             setBlogdata(response?.data)

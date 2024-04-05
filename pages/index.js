@@ -145,7 +145,7 @@ const index = () => {
         ipv4 = await publicIpv4();
         ipv6 = await publicIpv6();
         const data = {
-            project_id: 1,
+            project_id: 3,
             created_at: () => Date.now(),
             ip_address_v4: ipv4,
             ip_address_v6: ipv6,

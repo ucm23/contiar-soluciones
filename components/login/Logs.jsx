@@ -38,7 +38,7 @@ function Logs() {
     const getData = async () => {
         try {
             let range = (length !== 0 && page !== 1) ? `${(page - 1) * 100}-${((page - 1) * 100) + pageSize}` : '0-99';
-            const response = await indexLogs({ project_id: 1, range, length })
+            const response = await indexLogs({ project_id: 3, range, length })
             setData(response?.data)
             setLength(response?.length)
         } catch (error) {
