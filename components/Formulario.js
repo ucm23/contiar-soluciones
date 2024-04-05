@@ -24,8 +24,8 @@ const Formulario = () => {
 				"Content-Type": "application/json"
 			}
 			let response = await fetch(
-				//"https://backend-landing-pages.vercel.app/send-contact-email-contiar",
-				"http://localhost:3001/send-contact-email-contiar",
+				"https://backend-landing-pages.vercel.app/send-contact-email-contiar",
+				//"http://localhost:3001/send-contact-email-contiar",
 				{
 					method: "POST",
 					headers: headersList,
