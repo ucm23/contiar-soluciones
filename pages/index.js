@@ -39,6 +39,7 @@ const items = [
 import { publicIpv4, publicIpv6 } from 'public-ip';
 import { insertLogs } from '../api/logs';
 import { indexChat } from '../api/chat';
+import ReadDocs from '../components/news/ReadDocs';
 
 const index = () => {
     const { push } = useRouter();
@@ -49,6 +50,9 @@ const index = () => {
 
     const [dataChat, setDataChat] = useState([])
     const [loaderChat, setLoaderChat] = useState(false)
+
+    const [modalDocs, setModalDocs] = useState(false);
+    const handleDocs = () => setModalDocs(!modalDocs)
 
     useEffect(() => {
         getChat()
@@ -154,7 +158,7 @@ const index = () => {
     }
 
 
-    const handleClick = () => push('/Nosotros');
+    //const handleClick = () => push('/Nosotros');
     const date = new Date();
     const year = date.getFullYear()
 
@@ -175,7 +179,7 @@ const index = () => {
                     </Fade>
 
                     <Stack spacing={3} direction="row">
-                        <ColorButton disableElevation onClick={handleClick} size='large' variant="contained" className='mx-auto mb-4 btn-standar' endIcon={<MdExpandMore className='ml-2' />}>Leer Más</ColorButton>
+                        <ColorButton disableElevation onClick={handleDocs} size='large' variant="contained" className='mx-auto mb-4 btn-standar' endIcon={<MdExpandMore className='ml-2' />}>Leer Curriculum Vitae</ColorButton>
                     </Stack>
                 </Navbar>
                 {/* Encabezado */}
@@ -316,6 +320,11 @@ const index = () => {
                     </div>
                 </section>
             </section>
+
+            <ReadDocs
+                show={modalDocs}
+                onHide={() => setModalDocs(false)}
+            />
 
         </Layout>
     )

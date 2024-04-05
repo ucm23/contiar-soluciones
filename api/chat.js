@@ -7,7 +7,7 @@ export const indexChat = async ({ }) => {
         let headers = getHeaders({})
         let response = await Fetcher({
             method: 'GET',
-            url: `/chat-bot`,
+            url: `/chat-bot?order=id`,
             headers,
         });
         console.log("🚀 ~ 10 indexChat ~ response:", response)

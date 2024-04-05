@@ -16,29 +16,32 @@ const Formulario = () => {
 	}*/
 
 	const sendEmail = async (values) => {
-		console.log("🚀 ~ sendEmail ~ values:", values)
+		const status = false;
 		try {
-	
 			let bodyR = JSON.stringify(values)
 			let headersList = {
 				"Accept": "*/*",
 				"Content-Type": "application/json"
 			}
-
-			let response = await fetch("https://backend-landing-pages.vercel.app/send-contact-email-contiar", {
-				method: "POST",
-				headers: headersList,
-				body: bodyR
-			});
-	
+			let response = await fetch(
+				//"https://backend-landing-pages.vercel.app/send-contact-email-contiar",
+				"http://localhost:3001/send-contact-email-contiar",
+				{
+					method: "POST",
+					headers: headersList,
+					body: bodyR
+				}
+			);
 			let data = await response.text();
 			console.log(data);
-	
+
 		} catch (error) {
 			console.log("🚀 ~ sendEmail ~ error:", error)
+		} finally {
+			return status;
 		}
 	}
-	
+
 
 	return (
 		<Formik
@@ -68,12 +71,12 @@ const Formulario = () => {
 			}}
 
 			onSubmit={(valores, { resetForm }) => {
-				sendEmail({...valores});
+				sendEmail({ ...valores });
 				resetForm()
 				setformularioenviado(true);
 				setTimeout(() => {
 					setformularioenviado(false)
-				}, 4000)
+				}, 10000)
 			}}
 		>
 			{({ values, errors, touched, handleSubmit, handleChange, handleBlur }) => (
@@ -143,7 +146,14 @@ const Formulario = () => {
 					{touched.mensaje && errors.mensaje && <div className='error'> {errors.mensaje} </div>}
 
 					<button className='btnContact' type='submit'><span>Enviar</span><BiMailSend className='sendMail' /> </button>
-					{formularioenviado && <p className='exito'>Formulario enviado con éxito</p>}
+					{formularioenviado &&
+						<p className='exito'>
+							<strong>Formulario enviado con éxito</strong> <br />
+							Hemos enviado un correo electrónico importante a tu bandeja de entrada. <br />
+							Si no lo encuentras allí, por favor, <br />
+							revisa tu carpeta de correo no deseado (spam) o la carpeta de promociones. <br />
+							A veces, nuestros correos electrónicos pueden ser filtrados incorrectamente y terminar en estas carpetas.
+						</p>}
 				</form>
 
 			)}
