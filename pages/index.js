@@ -57,7 +57,7 @@ const index = () => {
         if (!mobile) setModalDocs(!modalDocs);
         else {
             const a = document.createElement('a');
-            a.download = 'Gontiar-Soluciones.pdf';
+            a.download = 'Contiar-Soluciones.pdf';
             a.href = '/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf';
             document.body.appendChild(a);
             a.click();
