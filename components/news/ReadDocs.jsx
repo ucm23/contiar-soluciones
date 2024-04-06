@@ -30,7 +30,7 @@ export default function ReadDocs(props) {
         >
             <Box sx={style} className='class-container'>
                 <embed
-                    src={`/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf#navpanes=0&scrollbar=0`}
+                    src={`/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf#navpanes=0`}
                     type="application/pdf"
                     width='100%'
                     height='100%'

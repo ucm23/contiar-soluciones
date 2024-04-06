@@ -3,6 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import { ColorButton } from '../lib/theme';
 import { useRouter } from 'next/router'
 import { Stack } from '@mui/material';
+import React from 'react';
 import { Suspense, useEffect, useState } from 'react'
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
@@ -52,10 +53,32 @@ const index = () => {
     const [loaderChat, setLoaderChat] = useState(false)
 
     const [modalDocs, setModalDocs] = useState(false);
-    const handleDocs = () => setModalDocs(!modalDocs)
+    const handleDocs = () => {
+        if (!mobile) setModalDocs(!modalDocs);
+        else {
+            const a = document.createElement('a');
+            a.download = 'Gontiar-Soluciones.pdf';
+            a.href = '/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+    }
+
+    const [mobile, setMobile] = useState(false);
 
     useEffect(() => {
         getChat()
+        const isBrowser = typeof window !== 'undefined';
+
+        if (isBrowser && window.navigator) {
+            let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            console.log("🚀 ~ useEffect ~ isMobile:", isMobile)
+            setMobile(isMobile)
+        } else {
+            console.log('El objeto navigator no está disponible en este entorno.');
+        }
     }, [])
 
     const getChat = async () => {
@@ -169,7 +192,7 @@ const index = () => {
                 <Navbar >
                     <Fade direction="left">
                         <h1 className="hero_title">
-                        <br /> Contiar Soluciones
+                            <br /> Contiar Soluciones
                         </h1>
                     </Fade>
                     <Fade direction="right">
